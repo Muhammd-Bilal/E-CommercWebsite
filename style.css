@@ -9,30 +9,85 @@ body{
     scroll-behavior: smooth !important;
     overflow-x: hidden;
 } 
+#postion-nav{
+    transition: top 0.7s;
+    text-align: center;
+}
+.w-100{
+    height:100vh !important;
+
+}
 #mydiv{
     display: none;
-  
   }
 
 
-#navbar{
-    background-color: transparent !important;
-    color: #6f6f6f !important ;
+
+
+
+  #navbar{
+      margin-right: 35%;
+      font-size: 18px;
+      font-weight: 600;
+     
+  }
+ @media only screen and (max-width:750px){
     
+ #navbar{
+  
+
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold;
+
+
+} 
+#icon-div{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-bottom: 5%;
+    text-align: center;
+    width: 100%;
 }
+
+} 
+#icon-like2{
+    /* margin-left: 50px auto; */
+}
+
+
+@media only screen and (max-width:750px){
+    #navbar{
+
+        color: #6f6f6f !important ;
+        width: 100%;
+    
+        
+    }
+
+}
+
+
+@media only screen and (max-width:850px){
+    .navbar-icon{
+     margin: 0px;
+    
+    }
+
+}
+
+
+
 #icon-like2:hover{
     color: gray;
+
 }
-#navbarid{
+ #navbarid{
     margin-left: 7%;
     font-size: 17px;
     
-
+ }
     
-}
-/* #Product-link{
-    float:right;
-} */
+
 #Product-Button{
     background-color: white;
 }
@@ -47,6 +102,7 @@ body{
 
     background-color: #e6e6e6;
     font-size: 17px;
+    width: ;
  }
 
 #Quik-Veiw-Button:hover{ 
@@ -219,7 +275,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     margin-bottom: 10%;
     margin-top: 7%;
     background-color: #e6e6e6;
-    width: 14%;
+    width: 14% auto;
 }
 #load-more-button:hover{
     background: black;
@@ -300,10 +356,11 @@ footer-Section code End */
   }
   #shop-now-button{
       position: absolute;
-      top: 75%;
-      right: 68%;
+      top: 58%;
+      right: 60%;
       background-color: #e6e6e6;
       font-size: 17px;
+      width: 0% auto;
   }
   #shop-now-button:hover{
     background: black;
