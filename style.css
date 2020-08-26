@@ -10,7 +10,7 @@ body{
     overflow-x: hidden;
 } 
 #postion-nav{
-    transition: top 0.7s;
+    transition: top 2.0s;
     text-align: center;
 }
 .w-100{
@@ -19,10 +19,20 @@ body{
 }
 #mydiv{
     display: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    
   }
+  #mydiv a{
+      color: #6f6f6f;
+  }
+  #mydiv ul{
 
-
-
+list-style: none;
+}
 
 
   #navbar{
@@ -50,9 +60,6 @@ body{
 }
 
 } 
-#icon-like2{
-    /* margin-left: 50px auto; */
-}
 
 
 @media only screen and (max-width:750px){
@@ -188,43 +195,64 @@ body{
   }
 
 
-/* 
+
 #Slides-Text-Section{
-    color: #222222;
-   
-    position: absolute !important;
-    bottom:50% !important;
-    right: 50%;
-    font-size: 30px;
-} */
-/*
+  color: #222222;
+
+  position: absolute;
+  bottom:300px; 
+ left: 20px;
+
+
+width: 100%;
+transition: top 5.0s;
+} 
+
 .Slides-Title{
     color: #222222;
    
-    position: absolute !important;
-    bottom: 500% !important;
-    font: bolder;
-    font-size: 30px;
+ 
+
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .Slides-Para{
     color: #222222;
    
-    position: absolute !important;
-    bottom: 400% !important;
-    font: bolder;
-    font-size: 40px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 65px;
+font-family: serif;
+font-weight: bolder;
+text-transform: uppercase;
 }
 .Slides-Button{
     color: #222222;
    
-    position: absolute !important;
-    bottom: 300% !important;
+
     font: bolder;
     font-size: 30px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} */
+}
+@media only screen and (max-width:767px){
+    #Slides-Text-Section{
+
+        bottom:180px; 
+      
+    }
+
+    #SUBSCRIBE-btn{
+        font-size: 15px;
+        height: 19px auto;
+        
+    }
+    .Slides-Title{
+     font-size: 20px;
+    }
+    .Slides-Para{
+        color: gray;
+       
+        font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
 
 
 
@@ -297,7 +325,7 @@ footer-Section code Start */
 #SUBSCRIBE-btn{
 
   background-color: #717fe0;
-    width: 60%;
+    width: 60% auto;
 
 }
 #SUBSCRIBE-btn:hover{
